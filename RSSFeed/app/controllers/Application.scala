@@ -17,18 +17,35 @@ object Application extends Controller {
   // ersten <link> rausschmeißen
   val xmlld = xmlinput tail
   
-	def userprofile = Action {
+	def index = Action {
 		Redirect(routes.Application.feeds)
 	}
+	
 	import models.Feed
 	
+	def home = Action {
+		Ok(views.html.Hauptseite())
+	}
+	def start = Action {
+		Ok(views.html.Startseite())
+	}
+	def out = Action {
+		Ok(views.html.log_out())
+	}
+	def about = Action {
+		Ok(views.html.about_us())
+	}
+	def create = Action {
+		Ok(views.html.create_an_account())
+	}
+	
 	def feeds =  Action {
-		Ok(views.html.index(Feed.all(), feedForm))
+		Ok(views.html.userprofile(Feed.all(), feedForm))
 	}
   
 	def newFeed = Action { implicit request =>
 		feedForm.bindFromRequest.fold(
-			errors => BadRequest(views.html.index(Feed.all(), errors)),
+			errors => BadRequest(views.html.userprofile(Feed.all(), errors)),
 			URL => {
 				Feed.create(URL)
 				Redirect(routes.Application.feeds)
