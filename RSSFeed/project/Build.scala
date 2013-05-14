@@ -9,6 +9,7 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     // Add your project dependencies here,
+    "org.apache.derby" % "derby" % "10.10.1.1",
     jdbc,
     anorm
   )

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="author" content="Luka Cvrk (www.solucija.com)">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title>News Miner</title>
+</head>
+<body>
+	<div id="wrap"> 
+		<div id="logo">
+			<h1 align="center"><font size="12">NEWS MINER</font></h1>
+			<p><font size="2">get informed about the latest news</p>
+			<!--<div align="center"><img style="width: 500px; height: 90px;" src="images/Titelbild.png"></div>-->
+		</div>
+
+		<div id="menu">
+			<div id="menu-left"></div>
+			<ul>
+				<li><a href="#"><span>home</span></a></li>
+				<li><a class="current" href="#"><span>user profile</span></a></li>
+				<li><a href="#"><span>about us</span></a></li>
+				<li><a href="#"><span>log out</span></a></li>
+			</ul>
+			<div id="menu-right"></div>
+		</div>
+
+		<div id="content-top"></div>
+		<div id="content-middle">
+			@(feeds: List[Feed], feedForm: Form[String])
+
+@import helper._
+@import models.Feed
+
+@main("add RSS-Feeds") {
+    <h1>@feeds feed(s)</h1>
+    
+    <ul>
+        @feeds.map { feed =>
+            <li>
+                @feed.URL
+                
+                @form(routes.Application.deleteFeed(feed.id)) {
+                    <input type="submit" value="Delete">
+                }
+            </li>
+        }
+    </ul>
+    
+    <h2>Add a new feed</h2>
+    
+    @form(routes.Application.newFeed) {
+        
+        @inputText(feedForm("URL")) 
+        <input type="submit" value="confirm">
+        
+    }
+    
+}
+
+			<div class="clear"></div>
+		</div>
+		
+		<div id="content-bottom"></div>
+
+		<div id="footer">
+			<!--<p id="links"> <a href="#">Terms and Conditions</a> <a href="#">Privacy</a> <a href="#">About Us</a> </p>-->
+			<p>Impressum: Maria Johanna Born, Arne B&uuml;rsch, Jana Riquel, Jennifer Sieg, Viviane Werner 
+				<a href="http://www.ifis.cs.tu-bs.de/">IFIS - Institute for Information Systems - Technische Universität Braunschweig</a></p>
+
+		</div>
+
+	</div>
+
+</body>
+</html>

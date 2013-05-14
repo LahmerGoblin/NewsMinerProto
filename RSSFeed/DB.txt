@@ -1,0 +1,21 @@
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DB{
+
+public static void main(String[] args){
+
+
+Connection con = DriverManager.getConnection("jdbc:derby:NewsMinerDB;");
+Statement stmt = con.createStatement();
+String  a = "CREATE TABLE play_evolutions( id Integer NOT NULL PRIMARY KEY, hash VARCHAR(255), applied_at TIMESTAMP NOT NULL, apply_script CLOP, revert_script CLOP, state VARCHAR(255), last_problem CLOP)";
+stmt.executeUpdate(a);
+
+}
+}
+
+
