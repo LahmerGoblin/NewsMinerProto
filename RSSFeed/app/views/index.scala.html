@@ -1,11 +1,8 @@
-	
+
 @(feeds: List[Feed], feedForm: Form[String])
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<meta name="author" content="Luka Cvrk (www.solucija.com)">
 	<link rel="stylesheet" href='@routes.Assets.at("stylesheets/css/style.css")' type="text/css">
 	<title>News Miner</title>
 </head>
@@ -13,7 +10,7 @@
 	<div id="wrap"> 
 		<div id="logo">
 			<h1 align="center"><font size="12">NEWS MINER</font></h1>
-			<p><font size="2">get informed about the latest news</p>
+			<p><font size="2">get informed about the latest news</font></p>
 			<!--<div align="center"><img style="width: 500px; height: 90px;" src="images/Titelbild.png"></div>-->
 		</div>
 
@@ -30,36 +27,41 @@
 
 		<div id="content-top"></div>
 		<div id="content-middle">
-	
+			<h1><font size="4">USERNAME</font></h1>
+			</br>
+			<h2><font size="3">RSS-Feeds</font></h2>
 
-@import helper._
 @import models.Feed
+@import helper._
 
-@main("add RSS-Feeds") {
-    <h1>@feeds feed(s)</h1>
-    
-    <ul>
-        @feeds.map { feed =>
-            <li>
-                @feed.URL
-                
-                @form(routes.Application.deleteFeed(feed.id)) {
-                    <input type="submit" value="Delete">
-                }
-            </li>
-        }
-    </ul>
-    
-    <h2>Add a new feed</h2>
-    
-    @form(routes.Application.newFeed) {
-        
-        @inputText(feedForm("URL")) 
-        <input type="submit" value="confirm">
-        
-    }
-    
-}
+			@form(routes.Application.newFeed) {
+				<p>@inputText(feedForm(""))<input type="submit" value="confirm">
+				<p>@inputText(feedForm(""))<input type="submit" value="confirm">
+				<p>@inputText(feedForm(""))<input type="submit" value="confirm">
+			}
+			<h2><font size="3">Favorite Topics</font></h2>
+			<p>
+				<INPUT TYPE=CHECKBOX NAME="politics" VALUE="name1"><font size="2">   politics</font><br />
+				<INPUT TYPE=CHECKBOX NAME="sports" VALUE="name1"><font size="2">   sports</font><br />
+				<INPUT TYPE=CHECKBOX NAME="enterteiment" VALUE="name1"><font size="2">   entertaiment</font><br />
+				<INPUT TYPE=CHECKBOX NAME="music" VALUE="name1"><font size="2">   music</font>
+			</p>
+			
+			<h2><font size="3">Favorite Subjects</font></h2>
+			<form action="input_text.htm">
+				<form action="input_button.htm">
+					<p><input name="Subject" type="text" size="30" maxlength="30"><input type="button" name="confirm" value="confirm"></p>
+					<p><input name="Subject" type="text" size="30" maxlength="40"><input type="button" name="confirm" value="confirm"></p>
+					<p><input name="Subject" type="text" size="30" maxlength="40"><input type="button" name="confirm" value="confirm"></p>
+				</form>	
+			</form>
+			
+			<h2><font size="3">Trends I follow</font></h2>
+				<form action="input_button.htm">
+					<p><font size="2">Trend		</font><input type="button" name="don´t follow" value="don´t follow"></p>
+					<p><font size="2">Trend 	</font><input type="button" name="don´t follow" value="don´t follow"></p>
+					<p><font size="2">Trend		</font><input type="button" name="don´t follow" value="don´t follow"></p>
+				</form>	
 
 			<div class="clear"></div>
 		</div>
@@ -68,7 +70,7 @@
 
 		<div id="footer">
 			<!--<p id="links"> <a href="#">Terms and Conditions</a> <a href="#">Privacy</a> <a href="#">About Us</a> </p>-->
-			<p>Impressum: Maria Joanna Born, Arne Br&uuml;sch, Jana Riquel, Jennifer Sieg, Viviane Werner 
+			<p>Impressum: Maria Joanna Born, Arne Brüsch, Jana Riquel, Jennifer Sieg, Viviane Werner in cooperation with
 				<a href="http://www.ifis.cs.tu-bs.de/">IFIS - Institute for Information Systems - Technische Universität Braunschweig</a></p>
 
 		</div>
