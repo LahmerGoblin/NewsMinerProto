@@ -9,7 +9,7 @@ GET     /                           controllers.Application.index
 GET /home 							controllers.Application.home
 
 # start				
-GET /start 							controllers.Application.start
+# GET /start 							controllers.Application.start
 
 # log out 
 GET /out 							controllers.Application.out
@@ -22,7 +22,8 @@ GET /about 							controllers.Application.about
 
 # Show feeds
 
-GET /show                                                       controllers.Application.showFeeds
+#GET /show                                                       controllers.Application.showFeeds
+GET /start                                                       controllers.Application.showFeeds
 
 
 
