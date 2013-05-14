@@ -4,11 +4,11 @@ import play.Project._
 
 object ApplicationBuild extends Build {
 
-  val appName         = "add_RSSFeed"
+  val appName         = "RSSFeed"
   val appVersion      = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
-    "org.apache.derby" % "derby" % "10.10.1.1",
+    // Add your project dependencies here,
     jdbc,
     anorm
   )
