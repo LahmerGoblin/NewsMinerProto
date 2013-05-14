@@ -20,6 +20,9 @@ GET /create							controllers.Application.create
 # About us
 GET /about 							controllers.Application.about
 
+# Show feeds
+
+GET /show                                                       controllers.Application.showFeeds
 
 
 

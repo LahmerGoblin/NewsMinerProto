@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>
+      ZEIT ONLINE: ZEIT ONLINE Startseite</title>
+    <description/>
+    <pubDate>Mon, 13 May 2013 10:32:30 GMT</pubDate>
+    <lastBuildDate>Mon, 13 May 2013 13:23:05 +0200</lastBuildDate>
+    <language>de-de</language>
+    <link>http://www.zeit.de/index</link>
+    <atom:link href="http://newsfeed.zeit.de/index" rel="self" type="application/rss+xml"/>
+    <copyright>Copyright (c) 2013, ZEIT ONLINE GmbH</copyright>
+    <docs>http://www.zeit.de/hilfe/rss</docs>
+    <generator>mod_xslt LePenguin</generator>
+    <managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+    <webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+    <image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+      ZEIT ONLINE: ZEIT ONLINE Startseite</title>
+      <link>http://www.zeit.de/index</link>
+    </image>
+    <item>
+      <link>http://www.zeit.de/digital/internet/2013-05/sicherheitstechnik-aufruestung-weltmarkt</link>
+      <guid>http://www.zeit.de/digital/internet/2013-05/sicherheitstechnik-aufruestung-weltmarkt</guid>
+      <category>Digital</category>
+      <title>Sicherheitstechnik: Gute Geschäfte mit der Angst</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2013-05/sicherheitstechnik-aufruestung-weltmarkt"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2013-05/sicherheitstechnik-ueberwachungskameras-london/sicherheitstechnik-ueberwachungskameras-london-148x84.jpg"/&gt;&lt;/a&gt; Der Weltmarkt für Kameras, Scanner und Sicherheitsdienstleistungen wächst rasant. Besonders deutsche Firmen profitieren von der Angst – ob die begründet ist oder nicht.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Kevin P. Hoffmann</dc:creator>
+      <pubDate>Fri, 10 May 2013 22:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/wirtschaft/2013-05/schaeuble-selbstanzeige-hoeness</link>
+      <guid>http://www.zeit.de/wirtschaft/2013-05/schaeuble-selbstanzeige-hoeness</guid>
+      <category>Wirtschaft</category>
+      <title>Steuerberaterkongress: Schäuble verteidigt die Selbstanzeige</title>
+      <description>&lt;a href="http://www.zeit.de/wirtschaft/2013-05/schaeuble-selbstanzeige-hoeness"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/schule/2013-05/wolfgang-schaeuble-2/wolfgang-schaeuble-2-148x84.jpg"/&gt;&lt;/a&gt; Der Bundesfinanzminister hält die strafbefreiende Selbstanzeige für unverzichtbar. Auf dem Steuerberaterkongress in Dresden geht es auch um den Fall Hoeneß.</description>
+      <dc:creator>ZEIT ONLINE : Wirtschaft</dc:creator>
+      <pubDate>Mon, 13 May 2013 10:21:30 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/reisen/2013-05/segeln-schottland-hebriden</link>
+      <guid>http://www.zeit.de/reisen/2013-05/segeln-schottland-hebriden</guid>
+      <category>Reisen</category>
+      <title>Äußere Hebriden: Windstärke neun auf der "An Sùlaire"</title>
+      <description>&lt;a href="http://www.zeit.de/reisen/2013-05/segeln-schottland-hebriden"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/2013-04/segeln-hebriden-meerenge-the-minch/segeln-hebriden-meerenge-the-minch-148x84.jpg"/&gt;&lt;/a&gt; Sgoth Niseach heißen die Seegelboote, die einst auf den schottischen Inseln gebaut wurden. Reiner Luyken ist mit dem letzten der Art zu den Äußeren Hebriden gesegelt. </description>
+      <dc:creator>ZEIT ONLINE : Reisen - Reiner Luyken</dc:creator>
+      <pubDate>Mon, 13 May 2013 10:12:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/politik/deutschland/2013-05/parteien-finanzierung-rekordsumme</link>
+      <guid>http://www.zeit.de/politik/deutschland/2013-05/parteien-finanzierung-rekordsumme</guid>
+      <category>Politik</category>
+      <title>Finanzierung: Parteien erhalten Rekordsumme vom Staat</title>
+      <description>&lt;a href="http://www.zeit.de/politik/deutschland/2013-05/parteien-finanzierung-rekordsumme"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2013-05/parteien-wahlkampf-geld/parteien-wahlkampf-geld-148x84.jpg"/&gt;&lt;/a&gt; Im Wahljahr erhalten die Parteien 154 Millionen Euro vom Staat, vier Millionen mehr als 2012. Grund ist die automatische Anpassung an einen Preisindex.</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Mon, 13 May 2013 10:14:36 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/politik/deutschland/2013-05/piraten-parteitag-nocun</link>
+      <guid>http://www.zeit.de/politik/deutschland/2013-05/piraten-parteitag-nocun</guid>
+      <category>Politik</category>
+      <title>Piratenpartei: Die neue Demut der Piraten</title>
+      <description>&lt;a href="http://www.zeit.de/politik/deutschland/2013-05/piraten-parteitag-nocun"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2013-05/piraten-bundesparteitag/piraten-bundesparteitag-148x84.jpg"/&gt;&lt;/a&gt; Spätestens seit diesem Wochenende sind die Piraten keine Avantgarde mehr, sondern eine entzauberte Kleinpartei. Das ist gar nicht mal schlecht, kommentiert L. Jacobsen</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Mon, 13 May 2013 10:06:39 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/gesellschaft/schule/2013-05/lehrer-sommerferien-arbeitslos</link>
+      <guid>http://www.zeit.de/gesellschaft/schule/2013-05/lehrer-sommerferien-arbeitslos</guid>
+      <category>Gesellschaft</category>
+      <title>Arbeitslosigkeit: Tausende Lehrer vor Sommerferien ohne Job</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/schule/2013-05/lehrer-sommerferien-arbeitslos"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/gesellschaft/schule/2013-05/schule-klassenzimmer/schule-klassenzimmer-148x84.jpg"/&gt;&lt;/a&gt; Mit einem Trick sparen viele Länder Schulkosten: Jedes Jahr erhalten angestellte Lehrer nur befristete Verträge und müssen für den Sommer Arbeitslosengeld beantragen. </description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+      <pubDate>Mon, 13 May 2013 09:51:31 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://blog.zeit.de/tontraeger/2013/05/13/marques-toliver_15843</link>
+      <guid>http://blog.zeit.de/tontraeger/2013/05/13/marques-toliver_15843</guid>
+      <category>Kultur</category>
+      <title>Marques Toliver: R'n'B voller Geigen</title>
+      <description>&lt;a href="http://www.zeit.de/kultur/musik/2013-05/tontraeger-marques-toliver"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/kultur/musik/2013-05/toliver/toliver-148x84.jpg"/&gt;&lt;/a&gt; Tolliver müsste er heißen: Marques Toliver hätte ein L mehr verdient. Endlich erscheint sein Debütalbum, auf dem sich Klassik und Soul auf einzigartige Weise mischen.</description>
+      <dc:creator>ZEIT ONLINE : Kultur</dc:creator>
+    </item>
+    <item>
+      <link>http://www.zeit.de/sport/2013-05/schaaf-underdog-meisterfeier</link>
+      <guid>http://www.zeit.de/sport/2013-05/schaaf-underdog-meisterfeier</guid>
+      <category>Sport</category>
+      <title>Bundesliga-Rückschau: Heynckes und Johnny Cash gleichen sich im Spätwerk</title>
+      <description>&lt;a href="http://www.zeit.de/sport/2013-05/schaaf-underdog-meisterfeier"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/sport/2013-05/heynckes-meisterschale/heynckes-meisterschale-148x84.jpg"/&gt;&lt;/a&gt; München feiert wild, doch der Meistertrainer hat sich von jedem Schnörkel befreit. Schalke macht alles richtig, bloß beim Fußballspielen nicht. Alles zum 33. Spieltag</description>
+      <dc:creator>ZEIT ONLINE : Sport - Sören Maunz, Oliver Fritsch</dc:creator>
+      <pubDate>Mon, 13 May 2013 09:23:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://blog.zeit.de/nsu-prozess-blog/2013/05/13/spuren-nach-rheinland-pfalz-das-nsu-medienlog-vom-13-mai-2013/</link>
+      <guid>http://blog.zeit.de/nsu-prozess-blog/2013/05/13/spuren-nach-rheinland-pfalz-das-nsu-medienlog-vom-13-mai-2013/</guid>
+      <category>Gesellschaft</category>
+      <title>NSU-Prozessblog: Wie brisant sind die Daten aus Zschäpes Garage?</title>
+      <description>&lt;a href="http://www.zeit.de/politik/deutschland/2013-05/nsu-prozess-medienschau"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/gesellschaft/2013-05/zschaepe/zschaepe-148x84.jpg"/&gt;&lt;/a&gt; Eine Adressliste aus Zschäpes Garage sorgt für Diskussionen: Ermittler sollen der Spur 1998 nicht nachgegangen sein. Unklar ist, wie brisant die Daten wirklich sind.</description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+    </item>
+    <item>
+      <link>http://www.zeit.de/wirtschaft/2013-05/zuwanderung-europaeische-migrationsstroeme</link>
+      <guid>http://www.zeit.de/wirtschaft/2013-05/zuwanderung-europaeische-migrationsstroeme</guid>
+      <category>Wirtschaft</category>
+      <title>Migration: Europa wandert wie noch nie</title>
+      <description>&lt;a href="http://www.zeit.de/wirtschaft/2013-05/zuwanderung-europaeische-migrationsstroeme"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2013-05/zuwanderer/zuwanderer-148x84.jpg"/&gt;&lt;/a&gt; Die Debatte um mehr Zuwanderung nach Deutschland übersieht das Entscheidende: Die europäischen Migrationsströme ordnen sich gerade radikal neu. Von H. Brücker</description>
+      <dc:creator>ZEIT ONLINE : Wirtschaft - Herbert Brücker</dc:creator>
+      <pubDate>Mon, 13 May 2013 08:38:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/gesellschaft/zeitgeschehen/2013-05/anschlag-tuerkei-syrien-linksextremisten</link>
+      <guid>http://www.zeit.de/gesellschaft/zeitgeschehen/2013-05/anschlag-tuerkei-syrien-linksextremisten</guid>
+      <category>Politik</category>
+      <title>Grenzstadt Reyhanli: Linksextremisten sollen Anschlag in der Türkei verübt haben</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/zeitgeschehen/2013-05/anschlag-tuerkei-syrien-linksextremisten"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/ausland/2013-05/autobombe-reyhanli/autobombe-reyhanli-148x84.jpg"/&gt;&lt;/a&gt; Die Autobomben in der Grenzstadt Reyhanli sollen von Mitgliedern der DHKP-C gelegt worden sein. Türkischen Ermittlern zufolge hatten sie Hilfe vom syrischen Geheimdienst.</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Mon, 13 May 2013 08:33:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/video/2013-05/2373482830001</link>
+      <guid>http://www.zeit.de/video/2013-05/2373482830001</guid>
+      <category>Kultur</category>
+      <title>Sanaa: Jemens Märchenarchitektur beginnt zu bröckeln</title>
+      <description>Die Altstadt der jemenitischen Hauptstadt Sanaa ist Unesco-Weltkulturerbe – doch für den Erhalt fehlt das Geld. Bei den Bewohnern wächst der Zorn auf die Behörden.</description>
+      <dc:creator>ZEIT ONLINE : Kultur</dc:creator>
+      <pubDate>Mon, 13 May 2013 07:09:55 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/politik/ausland/2013-05/suedkorea-usa-manoever-nordkorea-verteidigungsminister</link>
+      <guid>http://www.zeit.de/politik/ausland/2013-05/suedkorea-usa-manoever-nordkorea-verteidigungsminister</guid>
+      <category>Politik</category>
+      <title>Korea-Konflikt: Südkorea und USA starten Militärmanöver</title>
+      <description>&lt;a href="http://www.zeit.de/politik/ausland/2013-05/suedkorea-usa-manoever-nordkorea-verteidigungsminister"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/ausland/2013-05/suedkorea-usa/suedkorea-usa-148x84.jpg"/&gt;&lt;/a&gt; Gemeinsam haben Südkorea und die USA eine Marineübung begonnen. Nordkorea spricht von schwerer Provokation. Auch ernannte das Regime einen neuen Verteidigungsminister.</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Mon, 13 May 2013 07:59:40 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/politik/deutschland/2013-05/steinbrueck-wahlkampf-kompetenzteam</link>
+      <guid>http://www.zeit.de/politik/deutschland/2013-05/steinbrueck-wahlkampf-kompetenzteam</guid>
+      <category>Politik</category>
+      <title>SPD-Personalien: Hilfe für Steinbrück</title>
+      <description>&lt;a href="http://www.zeit.de/politik/deutschland/2013-05/steinbrueck-wahlkampf-kompetenzteam"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2013-05/kompetenzteam-steinbrueck-wahlkampf/kompetenzteam-steinbrueck-wahlkampf-148x84.jpg"/&gt;&lt;/a&gt; Ein Arbeitsmarktexperte, der gegen die Agenda 2010 ist, eine Netz-Pionierin für den Internet-Muffel Steinbrück. Die SPD erhofft sich Aufbruch durch ihr Kompetenzteam.</description>
+      <dc:creator>ZEIT ONLINE : Politik - Robert Birnbaum</dc:creator>
+      <pubDate>Sun, 12 May 2013 22:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

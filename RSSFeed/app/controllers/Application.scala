@@ -4,18 +4,40 @@ import play.api._
 import play.api.mvc._
 
 object Application extends Controller {
-    
-  // RSS-Dateien einlesen
-  import io.{ Source, BufferedSource}
-  // RSS-Feed holen
-  val xmlinput = Source.fromFile("zeit.xml").getLines().toList.view
-  // nur <link> und <description> Zeilen behalten
-  def contLinkOrDesc(s:String):Boolean = {
-    s.contains("<link>") || s.contains("<description")
-  }
-  val xmlldwithfirstlink = xmlinput.filter(x => contLinkOrDesc(x)).view
-  // ersten <link> rausschmeißen
-  val xmlld = xmlinput tail
+      import language.postfixOps
+
+  import io.{Source,BufferedSource}
+
+  val file = Source.fromFile("zeit.xml").getLines.toList
+
+  def contd(s:String):Boolean = s.contains("<description>")
+  def contl(s:String):Boolean = s.contains("<link>")
+  def contt(s:String):Boolean = s.contains("<title>")
+  import util.matching.Regex
+
+  val description = new Regex(""".*/&gt;&lt;/a&gt;(.*)</description>""","content")
+  val description2 = new Regex(""".*<description>(.*)</description>""","content")
+  val title = new Regex(""".*<title>(.*)</title>.*""","titel")
+  val link = new Regex(""".*<link>(.*)</link>.*""","url")
+  val msc = new Regex("""(.*)""","ms")
+  val contitledesct:List[String] = for (f <- ( file.filter(x => contt(x))tail )) yield { f match {
+    case title(titel) => titel
+    case _ => ""
+  }}
+  val conlinkdescl:List[String] = for (f <- ( file.filter(x => contl(x))tail)) yield { f match {
+    case description(content) => content
+    case description2(content) => content
+    case link(url) => url
+    case _ => ""
+  }} 
+  val conlinkdescd:List[String] = for (f <- ( file.filter(x => contd(x)) )) yield { f match {
+    case description(content) => content
+    case description2(content) => content
+    case link(url) => url
+    case _ => ""
+  }}
+
+  val feedTuple = ((contitledesct tail) zip (conlinkdescl tail)) zip conlinkdescd
   
 	def index = Action {
 		Redirect(routes.Application.feeds)
@@ -57,6 +79,10 @@ object Application extends Controller {
 		Feed.delete(id)
 		Redirect(routes.Application.feeds)
 	}
+
+        def showFeeds() = Action {
+          Ok(views.html.showFeeds(feedTuple))
+        }
   
 	import play.api.data._
 	import play.api.data.Forms._
