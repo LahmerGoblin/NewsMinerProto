@@ -4,8 +4,20 @@ import play.api._
 import play.api.mvc._
 
 object Application extends Controller {
+    
+  // RSS-Dateien einlesen
+  import io.{ Source, BufferedSource}
+  // RSS-Feed holen
+  val xmlinput = Source.fromFile("zeit.xml").getLines().toList.view
+  // nur <link> und <description> Zeilen behalten
+  def contLinkOrDesc(s:String):Boolean = {
+    s.contains("<link>") || s.contains("<description")
+  }
+  val xmlldwithfirstlink = xmlinput.filter(x => contLinkOrDesc(x)).view
+  // ersten <link> rausschmeißen
+  val xmlld = xmlinput tail
   
-	def index = Action {
+	def userprofile = Action {
 		Redirect(routes.Application.feeds)
 	}
 	import models.Feed
