@@ -80,6 +80,8 @@ object Application extends Controller {
 		Redirect(routes.Application.feeds)
 	}
 
+        def submit() = TODO
+
         def showFeeds() = Action {
           Ok(views.html.showFeeds(feedTuple))
         }
